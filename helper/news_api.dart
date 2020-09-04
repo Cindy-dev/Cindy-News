@@ -8,7 +8,7 @@ class NewsAPI {
 
 
   Future<NewsResponseModel> fetchNews() async {
-    final url = "https://content.guardianapis.com/search?api-key=cf4f8f5d-9f48-473c-9bc7-cd0c68660616";
+    final url = "https://content.guardianapis.com/search?api-key=[API KEY]";
     var respBody;
 
     print(url);
